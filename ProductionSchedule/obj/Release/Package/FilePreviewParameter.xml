@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="productionschedule" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Matt\\Documents\\GitHub\\ProductionSchedule\\ProductionSchedule\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Matt\\Documents\\GitHub\\ProductionSchedule\\ProductionSchedule\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-ProductionSchedule-20131017221821;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-ProductionSchedule-20131017221821.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Matt\\Documents\\GitHub\\ProductionSchedule\\ProductionSchedule\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ProductionSchedule.Models.ProductionScheduleContext-Web.config Connection String" description="" value="ProductionSchedule.Models.ProductionScheduleContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Matt\\Documents\\GitHub\\ProductionSchedule\\ProductionSchedule\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProductionSchedule.Models.ProductionScheduleContext']/@connectionString" />
+  </parameter>
+</parameters>

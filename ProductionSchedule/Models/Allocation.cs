@@ -10,9 +10,9 @@ namespace ProductionSchedule.Models
     {
         public int AllocationId { get; set; }
         [Required]
-        public string Title { get; set; }
-        public string Status { get; set; }
-        public string Hours { get; set; }
+        public String Title { get; set; }
+        public String Status { get; set; }
+        public Double Hours { get; set; }
         public DateTime Date { get; set; }
     }
 }

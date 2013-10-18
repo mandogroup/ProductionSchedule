@@ -26,8 +26,9 @@ C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\bin\System.
 C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\bin\System.Web.WebPages.xml
 C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\bin\System.Web.WebPages.Razor.xml
-C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\obj\Debug\ProductionSchedule.csprojResolveAssemblyReference.cache
 C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\obj\Debug\ProductionSchedule.dll
 C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\obj\Debug\ProductionSchedule.pdb
 C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\bin\EntityFramework.SqlServer.dll
 C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\bin\EntityFramework.SqlServer.xml
+C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\obj\Debug\ProductionSchedule.Migrations.InitialCreate.resources
+C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\obj\Debug\ProductionSchedule.csproj.GenerateResource.Cache
