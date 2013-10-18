@@ -1,53 +1,22 @@
 @model IEnumerable<ProductionSchedule.Models.Allocation>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Production Schedule";
 }
+@*<p>@Html.ActionLink("Create New", "Create")</p>*@
 
-<h2>Index</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table>
-    <tr>
-        <th></th>
-        <th>
-            Title
-        </th>
-        <th>
-            Status
-        </th>
-        <th>
-            Hours
-        </th>
-        <th>
-            Date
-        </th>
-    </tr>
+<div class="container">
 
 @foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.AllocationId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.AllocationId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.AllocationId })
-        </td>
-        <td>
-			@item.Title
-        </td>
-        <td>
-			@item.Status
-        </td>
-        <td>
-			@String.Format("{0:F}", item.Hours)
-        </td>
-        <td>
-			@String.Format("{0:g}", item.Date)
-        </td>
-    </tr>
+    var hours = String.Format("{0}", item.Hours);
+    var cssClass = hours.Replace(".", "");
+    <div class="allocation hours-@cssClass">
+@*       @Html.ActionLink("Edit", "Edit", new { id=item.AllocationId }) |
+        @Html.ActionLink("Details", "Details", new { id=item.AllocationId }) |
+        @Html.ActionLink("Delete", "Delete", new { id=item.AllocationId })*@
+		<h2>@item.Title</h2>
+        <p>@item.Status</p>
+		<span class="allocation">@hours</span>	
+    </div>
 }
-
-</table>
-
-
+</div>

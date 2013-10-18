@@ -25,12 +25,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <span class="logo">M<b>and</b>o</span>
+          <a class="navbar-brand" href="#">@DateTime.Now.DayOfWeek @DateTime.Now.ToLongDateString()</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="/home/index">Home</a></li>
-            <li><a href="/home/currentday">Production</a></li>
+            <li><a href="/allocations/">Production</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -38,6 +38,15 @@
 
     @RenderBody()
 
+    <div class="footer">
+      <div class="container">
+        <ul>
+            <li class="today"><a href="#">Today</a></li>
+            <li class="week"><a href="#">Week</a></li>
+            <li class="notes"><a href="#">Notes</a></li>
+        </ul>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
