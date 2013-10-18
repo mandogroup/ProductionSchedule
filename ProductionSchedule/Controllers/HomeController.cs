@@ -15,7 +15,7 @@ namespace ProductionSchedule.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult CurrentDay()
         {
             ViewBag.Message = "Your app description page.";
 

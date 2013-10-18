@@ -390,7 +390,7 @@ hr {
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0;
 }
 
 .lead {
@@ -746,8 +746,6 @@ pre code {
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -4185,6 +4183,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  margin-left:0.5em;
 }
 
 .navbar-brand:hover,
@@ -4203,7 +4202,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   float: right;
   padding: 9px 10px;
   margin-top: 8px;
-  margin-right: 15px;
+  margin-right: 22px;
   margin-bottom: 8px;
   background-color: transparent;
   border: 1px solid transparent;
@@ -6234,8 +6233,51 @@ body.modal-open,
   position: fixed;
 }
 
+/* added styles will need to be moved to a custom css stylesheet */
 span.logo {color:#ffffff; font-size:1.5em; letter-spacing:3px; line-height:2.3em; margin-top:1em; padding:0 1em; text-transform:uppercase; width:3.265em;}
 span.logo b {border-bottom:solid 2px #000000;}
+body {padding-top: 50px; padding-bottom: 30px;}
+
+div.allocation {color: #fff; margin:0.1em 0; padding:0.5em; position:relative;}
+div.allocation h2 { padding:0; margin:0;}
+span.allocation {font-size:3em; left:75%; position:absolute; }
+div.allocation.hours-05 {background:#85aec4; height:5em;}
+div.allocation.hours-05 span.allocation {top:0.65em;}
+div.allocation.hours-1 {}
+div.allocation.hours-1 span.allocation {}
+div.allocation.hours-15 { background:#bdbdb1; height:7em;}
+div.allocation.hours-15 span.allocation {top:1.3em;}
+div.allocation.hours-2 {background:#ffe294; height:10em;}
+div.allocation.hours-2 span.allocation {top:2.3em;}
+div.allocation.hours-25 {}
+div.allocation.hours-25 span.allocation {}
+div.allocation.hours-3 {}
+div.allocation.hours-3 span.allocation {}
+div.allocation.hours-35 {background:#bbdb9c; height:15em;}
+div.allocation.hours-35 span.allocation {top:4em;}
+div.allocation.hours-4 {}
+div.allocation.hours-4 span.allocation {}
+div.allocation.hours-45 {}
+div.allocation.hours-45 span.allocation {}
+div.allocation.hours-5 {}
+div.allocation.hours-5 span.allocation {}
+div.allocation.hours-55 {}
+div.allocation.hours-55 span.allocation {}
+div.allocation.hours-6 {}
+div.allocation.hours-6 span.allocation {}
+div.allocation.hours-65 {}
+div.allocation.hours-65 span.allocation {}
+div.allocation.hours-7 {}
+div.allocation.hours-7 span.allocation {}
+div.allocation.hours-75 {}
+div.allocation.hours-75 span.allocation {}
+div.footer {height:4em; padding:1em 0;}
+div.footer .container ul {list-style:none; margin:0 auto; text-indent:-9999px;}
+div.footer .container ul li {margin: 0 1em; width:100%;}
+div.footer .container ul li.today {background:url(../images/today-icon.png); float:left; height:74px; margin-top:1px; width:55px;}
+div.footer .container ul li.week {background:url(../images/week-icon.png); float:left; height:71px; margin-top:3px; width:51px;}
+div.footer .container ul li.notes {background:url(../images/notes-icon.png); float:left; height:74px; width:52px;}
+
 
 @-ms-viewport {
   width: device-width;
