@@ -32,3 +32,4 @@ C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\bin\EntityF
 C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\bin\EntityFramework.SqlServer.xml
 C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\obj\Debug\ProductionSchedule.Migrations.InitialCreate.resources
 C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\obj\Debug\ProductionSchedule.csproj.GenerateResource.Cache
+C:\Users\Matt\Documents\GitHub\ProductionSchedule\ProductionSchedule\obj\Debug\ProductionSchedule.csprojResolveAssemblyReference.cache
