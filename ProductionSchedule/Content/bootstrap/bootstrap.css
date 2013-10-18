@@ -6237,6 +6237,8 @@ body.modal-open,
 span.logo {color:#ffffff; font-size:1.5em; letter-spacing:3px; line-height:2.3em; margin-top:1em; padding:0 1em; text-transform:uppercase; width:3.265em;}
 span.logo b {border-bottom:solid 2px #000000;}
 
+body {padding-top: 50px; padding-bottom: 30px;}
+
 @-ms-viewport {
   width: device-width;
 }
