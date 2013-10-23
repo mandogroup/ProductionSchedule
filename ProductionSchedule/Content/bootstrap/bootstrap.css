@@ -6238,7 +6238,7 @@ span.logo {color:#ffffff; font-size:1.5em; letter-spacing:3px; line-height:2.3em
 span.logo b {border-bottom:solid 2px #000000;}
 body {padding-top: 50px; padding-bottom: 30px;}
 
-div.allocation {color: #fff; margin:0.1em 0; padding:0.5em; position:relative;}
+div.allocation {color: #fff; padding:0.5em; position:relative;}
 div.allocation h2 { padding:0; margin:0;}
 span.allocation {font-size:3em; left:75%; position:absolute; }
 div.allocation.hours-05 {background:#85aec4; height:5em;}
@@ -6251,7 +6251,7 @@ div.allocation.hours-2 {background:#ffe294; height:10em;}
 div.allocation.hours-2 span.allocation {top:2.3em;}
 div.allocation.hours-25 {}
 div.allocation.hours-25 span.allocation {}
-div.allocation.hours-3 {}
+div.allocation.hours-3 {background:#bdbdb1; height:15em;}
 div.allocation.hours-3 span.allocation {}
 div.allocation.hours-35 {background:#bbdb9c; height:15em;}
 div.allocation.hours-35 span.allocation {top:4em;}
