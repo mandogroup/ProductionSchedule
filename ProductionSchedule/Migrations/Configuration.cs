@@ -18,6 +18,7 @@ namespace ProductionSchedule.Migrations
             context.Allocations.AddOrUpdate(p => p.AllocationId,
                new Allocation
                {
+                   AllocationId = 1,
                    Account = "Talk Talk Business",
                    Title = "Home page template",
                    Date = DateTime.Now,
@@ -26,6 +27,7 @@ namespace ProductionSchedule.Migrations
                },
                new Allocation
                {
+                   AllocationId = 2,
                    Account = "ICO",
                    Title = "Landing page template",
                    Date = DateTime.Now,
