@@ -149,3 +149,5 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
+ProductionSchedule/App_Data/ProductionSchedule.Models.ProductionScheduleContext.mdf
+ProductionSchedule/App_Data/ProductionSchedule.Models.ProductionScheduleContext_log.ldf
